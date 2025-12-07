@@ -1,7 +1,7 @@
 <script setup>
 import { ref, watch, onMounted } from 'vue'
-import BudgetForm from './components/BudgetForm.vue'
-import BudgetTable from './components/BudgetTable.vue'
+import BudgetForm from './BudgetForm.vue'
+import BudgetTable from './BudgetTable.vue'
 
 // Реактивное состояние для транзакций
 const transactions = ref([])
